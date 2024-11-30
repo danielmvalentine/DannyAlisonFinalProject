@@ -1,0 +1,26 @@
+make[1]: Entering directory '/home/vagrant/DannyAlisonFinalProject'
+mkdir -p mnt || true
+./nufs -s -f mnt data.nufs
+make[1]: Entering directory '/home/vagrant/DannyAlisonFinalProject'
+fusermount -u mnt || true
+TODO: mount data.nufs as data file
+getattr(/large.txt) -> (-2) {mode: 0000, size: 0}
+mknod(/large.txt, 100664) -> -1
+getattr(/) -> (0) {mode: 40755, size: 0}
+getattr(/) -> (0) {mode: 40755, size: 0}
+getattr(/hello.txt) -> (0) {mode: 100644, size: 6}
+readdir(/) -> 0
+getattr(/large.txt) -> (-2) {mode: 0000, size: 0}
+getattr(/large.txt) -> (-2) {mode: 0000, size: 0}
+getattr(/large.txt) -> (-2) {mode: 0000, size: 0}
+getattr(/larger.txt) -> (-2) {mode: 0000, size: 0}
+mknod(/larger.txt, 100664) -> -1
+getattr(/) -> (0) {mode: 40755, size: 0}
+getattr(/) -> (0) {mode: 40755, size: 0}
+getattr(/hello.txt) -> (0) {mode: 100644, size: 6}
+readdir(/) -> 0
+getattr(/larger.txt) -> (-2) {mode: 0000, size: 0}
+getattr(/larger.txt) -> (-2) {mode: 0000, size: 0}
+getattr(/larger.txt) -> (-2) {mode: 0000, size: 0}
+make[1]: Leaving directory '/home/vagrant/DannyAlisonFinalProject'
+make[1]: Leaving directory '/home/vagrant/DannyAlisonFinalProject'
